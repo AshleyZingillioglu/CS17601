@@ -16,7 +16,7 @@ public static void main(String[] args) {
 CashRegister consumer = new CashRegister();
 Scanner scan = new Scanner(System.in);
 
-// input prices
+
 consumer.recordPurchase(price);
 
 System.out.print("Enter a purchase amount or -1 to stop: ");
@@ -31,15 +31,15 @@ scan.nextLine();
         ProductPrice[2]= 13.99;
         System.out.print("Enter a purchase amount or -1 to stop: ");
       
-        
-      //Add up the total
+ 
         while (price != -1);
         for(int i = 0; i < ProductPrice.length; i++ ) {
             if(choice == ProductPrice[i]) {
                 totalprice += ProductPrice[i];
             }
         }
-        System.out.println("Your total cost is: " + totalprice);
+        System.out.println("Your total cost is: " + totalprice)
+        
 //Accept the payment for the purchases.
 System.out.print("Enter payment: ");
 paymentreceived = scan.nextDouble();
