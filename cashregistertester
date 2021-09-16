@@ -23,7 +23,7 @@ System.out.print("Enter a purchase amount or -1 to stop: ");
 price = scan.nextDouble();
 scan.nextLine();
 //Array for storing the prices
-        double [] ProductPrice = new double[5];
+        double [] ProductPrice = new double[2];
         ProductPrice[0]= 25.25;
         System.out.print("Enter a purchase amount or -1 to stop: ");
         ProductPrice[1]=42.63;
